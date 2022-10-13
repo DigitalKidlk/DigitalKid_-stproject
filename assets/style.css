@@ -98,6 +98,9 @@ p{
 .banner-2 .banner-text p{
     color: #ffffff;
     font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+
 }
 
 /* ---------------------services section------------------- */
@@ -193,13 +196,16 @@ p{
         margin-left: 10px;
     }
     .banner-2 .banner-text{
-        top: -15% ;
+        top: -225% ;
     }
 }
 
 @media (min-width:768px) and (max-width:1024px){
     .banner-2 .banner-text{
         top: 20% ;
+    }
+    .banner-2 .banner-text p{
+        font-size: 14px !important;
     }
 }
 
