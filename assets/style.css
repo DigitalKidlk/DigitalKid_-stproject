@@ -4,13 +4,20 @@
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
+    /* background-color: #131313; */
 }
 
 p{
     margin-bottom: unset;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
+    color: #000000;
 }
+
+h1{
+    color: #000000;
+}
+
 
 .navbar{
     background-color: #131313;
@@ -58,7 +65,7 @@ p{
 .banner .banner-text{
     position: absolute;
     top: 30%;
-    left: 5%;
+    left: 9%;
 }
 
 .banner .banner-text h1{
@@ -84,7 +91,7 @@ p{
 
 .banner-2 .banner-text{
     position: absolute;
-    top: 20%;
+    top: 30%;
 }
 
 .banner-2 .banner-text h2{
@@ -105,30 +112,26 @@ p{
 
 /* ---------------------services section------------------- */
 
-.services{
-    background: black;
-}
-
 .services .container{
     padding: 50px 0px;
 }
 
 .services h1{
     text-align: center;
-    color: whitesmoke;
+    color: black;
     padding-bottom: 50px;
 }
 
 .services .services-content .left{
     flex: 1;
     text-align: center;
-    color: white;
+    color: black;
 
 
 }
 .services .services-content .left-contents{
     text-align: center;
-    color: white;
+    color: black;
 
 }
 
@@ -136,25 +139,25 @@ p{
 .services .services-content .middle{
     flex: 1;
     text-align: center;
-    color: white;
+    color: black;
 
 
 }
 .services .services-content .middle-contents{
     text-align: center;
-    color: white;
+    color: black;
 }
 
 .services .services-content .right{
     flex: 1;
     text-align: center;
-    color: white;
+    color: black;
 
 
 }
 .services .services-content .right-contents{
     text-align: center;
-    color: white;
+    color: black;
 
 }
 
@@ -192,6 +195,9 @@ p{
 }
 
 @media (min-width:280px) and (max-width:768px){
+    .banner .banner-text{
+        left: 4%;
+    }
     .navbar-brand .logo{
         margin-left: 10px;
     }
@@ -216,6 +222,7 @@ p{
     text-align: center;
     letter-spacing: 1px;
     font-weight: bold;
+    color: #ffffff;
 }
 
 .card-title{
@@ -227,6 +234,7 @@ p{
 .card-text{
     font-size: 14px;
 }
+
 
 
 
