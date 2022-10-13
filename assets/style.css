@@ -90,7 +90,9 @@ h1{
 
 .banner-2 .banner-text{
     position: absolute;
-    top: 30%;
+    top: 57%;
+    text-align: center;
+    padding-right: 100px;
 }
 
 .banner-2 .banner-text h2{
@@ -182,14 +184,15 @@ h1{
 
     .banner-2 .banner-text{
         top: 20% ;
+        text-align: right;
     }
 
     .banner-2 .banner-text h2{
-        font-size: 18px;
+        font-size: 32px;
     }
 
     .banner-2 .banner-text p{
-        font-size: 10px !important;
+        font-size: 13px !important;
     }
 }
 
@@ -201,7 +204,8 @@ h1{
         margin-left: 10px;
     }
     .banner-2 .banner-text{
-        top: -70% ;
+        top: -55%;
+        padding-right: 20px;
     }
     .web-design{
         flex-direction: column;
