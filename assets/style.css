@@ -19,7 +19,6 @@ p{
 .navbar-brand .logo{
     min-width: 200px;
     width: 200px;
-    margin-left: 50px;
 }
 
 .navbar-brand{
@@ -185,13 +184,12 @@ p{
     .banner-2 .banner-text p{
         font-size: 14px !important;
     }
+}
 
-    /* .banner{
-        height: calc(100vh - 294px);
+@media (min-width: 768px){
+    .navbar-brand .logo{
+        margin-left: 50px;
     }
-    .banner-2{
-        height: calc(100vh - 300px);
-    } */
 }
 
 
