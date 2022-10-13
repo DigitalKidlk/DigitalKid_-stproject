@@ -15,6 +15,11 @@ h1{
     background-color: #000;
 }
 
+.navbar-brand .logo{
+    min-width: 200px;
+    width: 200px;
+}
+
 .navbar-brand{
     color: black;
     font-size: 30px;
@@ -62,6 +67,33 @@ h1{
 
 .banner .banner-text h1 span{
     color: #fa6279;
+}
+
+.banner-2{
+    position: relative;
+    background-image: url(img/2nd-banner.jpeg);
+    height: calc(100vh - 300px);
+    object-fit: cover;
+    object-position: center;
+    background-repeat: no-repeat;
+}
+
+.banner-2 .banner-text{
+    position: absolute;
+    top: 15%;
+}
+
+.banner-2 .banner-text h2{
+    color: #ffffff;
+}
+
+.banner-2 .banner-text h2 span{
+    color: #fa6279;
+}
+
+.banner-2 .banner-text p{
+    color: #ffffff;
+    font-size: 20px;
 }
 
 /* ---------------------services section------------------- */
@@ -153,7 +185,10 @@ h1{
     }
 
     .banner{
-        height: calc(100vh - 12px);
+        height: calc(100vh - 294px);
+    }
+    .banner-2{
+        height: calc(100vh - 300px);
     }
 }
 
@@ -178,35 +213,5 @@ h1{
 }
 
 
-.navbar-brand .logo{
-    min-width: 200px;
-    width: 200px;
-}
 
 
-.banner-2{
-    position: relative;
-    background-image: url(img/2nd-banner.jpeg);
-    min-height: calc(100vh - 100px);
-    object-fit: cover;
-    object-position: center;
-    background-repeat: no-repeat;
-}
-
-.banner-2 .banner-text{
-    position: absolute;
-    top: 20%;
-}
-
-.banner-2 .banner-text h2{
-    color: #ffffff;
-}
-
-.banner-2 .banner-text h2 span{
-    color: #fa6279;
-}
-
-.banner-2 .banner-text p{
-    color: #ffffff;
-    font-size: 20px;
-}
