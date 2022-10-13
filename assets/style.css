@@ -40,7 +40,7 @@ h1{
     position: relative;
     background-image: url(img/bg-image.jpeg);
     min-height: calc(100vh - 99px);
-    min-width: 100%;
+    width: 100%;
     object-fit: cover;
     object-position: center;
     background-repeat: no-repeat;
@@ -124,7 +124,7 @@ h1{
     .banner .banner-text{
         position: absolute;
         top: 37%;
-        width: 95%;
+        width: 50%;
         left: 16%;
     }
     
@@ -197,7 +197,7 @@ h1{
     position: relative;
     background-image: url(img/2nd-banner.jpeg);
     min-height: 80vh;
-    min-width: 100%;
+    width: 100%;
     object-fit: cover;
     object-position: center;
     background-repeat: no-repeat;
