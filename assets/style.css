@@ -213,6 +213,11 @@ h1{
     .home3rdPage{
         flex-direction: column;
     }
+
+    .home3rdPage .left{
+        order: 0 !important;
+    }
+
     .home3rdPage .left img{
         width: 200px;
     }
@@ -233,6 +238,10 @@ h1{
     }
     .banner-2 .banner-text p{
         font-size: 14px !important;
+    }
+
+    .home3rdPage .left{
+        order: 0 !important;
     }
 }
 
