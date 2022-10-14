@@ -20,6 +20,19 @@ h1{
     color: #000000;
 }
 
+.navbar-toggler{
+    color: #ffffff !important;
+    border-style: none !important;
+    border: none !important;
+    outline: none !important;
+}
+
+.navbar-toggler-icon{
+    color: #ffffff !important;
+    border-style: none !important;
+    border: none !important;
+    outline: none !important;
+}
 
 .navbar{
     background-color: #131313;
