@@ -210,19 +210,19 @@ h1{
         top: -55%;
         padding-right: 20px;
     }
-    .web-design{
+    .home3rdPage{
         flex-direction: column;
     }
-    .web-design .left img{
+    .home3rdPage .left img{
         width: 200px;
     }
 
-    .web-design .right h1{
+    .home3rdPage .right h1{
         font-size: 45px !important;
         padding-top: 15px !important;
     }
 
-    .web-design .right p{
+    .home3rdPage .right p{
         font-size: 16px !important;
     }
 }
@@ -250,37 +250,28 @@ h1{
     color: #ffffff;
 }
 
-.card-title{
-    font-size: 25px;
-    font-weight: bold;
-    margin-bottom: 10px;
-}
+/* home page contents css */
 
-.card-text{
-    font-size: 14px;
-}
-
-.web-design{
-    justify-content: space-between;
+.home3rdPage{
+    justify-content: space-evenly;
     align-items: center;
     text-align: center;
 }
 
 
-.web-design .right h1{
+.home3rdPage .right h1{
     color: #ffffff;
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
     font-size: 75px;
     padding-top: 30px;
-    line-height: 0.7;
 }
 
-.web-design .right h1 span{
+.home3rdPage .right h1 span{
     color: #fa6279;
 }
 
-.web-design .right p{
+.home3rdPage .right p{
     color: #ffffff;
     font-size: 22px;
     font-family: 'Roboto', sans-serif;
@@ -288,7 +279,7 @@ h1{
     font-style: italic;
 }
 
-.web-design .right a .fa:hover{
+.home3rdPage .right a .fa:hover{
     background-color: #fa6279;
     border-radius: 50%;
 }
