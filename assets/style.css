@@ -230,6 +230,10 @@ h1{
     .home3rdPage .right p{
         font-size: 16px !important;
     }
+
+    .home3rdPage{
+        gap: 0 !important;
+    }
 }
 
 @media (min-width:768px) and (max-width:1024px){
