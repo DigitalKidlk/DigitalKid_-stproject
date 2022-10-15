@@ -247,6 +247,34 @@ h1{
     .home3rdPage{
         gap: 0 !important;
     }
+
+/* footer section media query css */
+
+    .footer-section .footer .right ul{
+        margin-right: 0px !important;
+    }
+    .footer-section .footer .container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .footer-section .footer .container .left{
+        margin-bottom: 20px;
+    }
+
+    .footer-section .footer .container .right ul{
+        margin-bottom: 20px;
+    }
+
+    .footer-section .footer .container .right{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+
 }
 
 @media (min-width:768px) and (max-width:1024px){
@@ -263,12 +291,12 @@ h1{
 }
 
 
-.footer .footer-content{
+.copywrite .copywrite-content{
     background-color: #131313;
 }
 
 
-.footer .footer-content .left{
+.copywrite .copywrite-content .left{
     font-size: 10px;
     text-align: center;
     letter-spacing: 1px;
@@ -465,3 +493,27 @@ h1{
     text-align: center;
     color: #ffffff;
 } 
+
+/* Footer contant*/
+.footer-section .footer .container{
+    justify-content: space-between;
+}
+.footer-section .footer{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.footer-section .footer ul{
+    padding: 0px;
+    margin: 0px;
+}
+.footer-section .footer ul li{
+    list-style: none;
+}
+
+.footer-section .footer .left .icons{
+    margin-right: 10px;
+}
+
+.footer-section .footer .right ul{
+    margin-right: 30px;
+}
