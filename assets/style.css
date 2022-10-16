@@ -484,6 +484,7 @@ h1{
     padding: 0;
     text-align: center;
     color: #ffffff;
+    font-size: 13px;
 }
 
 .container .card .slide.slide2 .content h3 {
@@ -493,6 +494,10 @@ h1{
     text-align: center;
     color: #ffffff;
 } 
+
+.container .card .icon img{
+    padding: 25px 40px;
+}
 
 /* Footer contant*/
 .footer-section .footer .container{
