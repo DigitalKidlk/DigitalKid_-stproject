@@ -262,22 +262,22 @@ h1 {
         margin-right: 0px !important;
     }
 
-    .footer-section .footer .card-section {
+    .footer-section .footer .container {
         flex-direction: column;
         justify-content: center;
         align-items: center;
         text-align: center;
     }
 
-    .footer-section .footer .card-section .left {
+    .footer-section .footer .container .left {
         margin-bottom: 20px;
     }
 
-    .footer-section .footer .card-section .right ul {
+    .footer-section .footer .container .right ul {
         margin-bottom: 20px;
     }
 
-    .footer-section .footer .card-section .right {
+    .footer-section .footer .container .right {
         flex-direction: column;
         justify-content: center;
         align-items: center;
