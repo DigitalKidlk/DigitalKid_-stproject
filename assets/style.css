@@ -21,63 +21,16 @@ h1 {
     color: #000000;
 }
 
-/* .navbar-toggler {
-    color: #ffffff !important;
-    border-style: none !important;
-    border: none !important;
-    outline: none !important;
-}
-
-.navbar-toggler-icon {
-    color: #ffffff !important;
-    border-style: none !important;
-    border: none !important;
-    outline: none !important;
-}
-
-.navbar {
-    background-color: #131313;
-}
-
-.navbar-brand .logo {
-    min-width: 200px;
-    width: 200px;
-}
-
-.navbar-brand {
-    color: black;
-    font-size: 30px;
-    font-weight: bold;
-}
-
-.navbar-nav .nav-item a {
-    color: #ffffff;
-    font-size: 14px;
-    font-weight: 100;
-    font-family: 'Roboto', sans-serif;
-    line-height: 1;
-    letter-spacing: 1px;
-
-}
-
-.navbar-nav .nav-item a:hover {
-    border-bottom: 1px solid yellow;
-    color: yellow;
-}
-
-.navbar-nav .nav-link.active,
-.navbar-nav .show>.nav-link {
-    color: yellow;
-    border-bottom: 1px solid yellow;
-} */
-
-
 /* new navbar section */
 
 
 /* The side navigation menu */
 .navbar-brand .logo{
     margin: 12px 0 12px 113px;
+}
+
+i.fa.fa-reorder:hover{
+    color: yellow;
 }
 
 .sidenav {
@@ -601,6 +554,7 @@ h1 {
     transform: translateX(5px);
     transition: 0.3s;
     background-color: yellow;
+    color: #000000;
 }
 
 .facebook {
