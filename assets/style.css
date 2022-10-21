@@ -77,7 +77,7 @@ h1 {
 
 /* The side navigation menu */
 .navbar-brand .logo{
-    margin: 12px 0 0 113px;
+    margin: 12px 0 12px 113px;
 }
 
 .sidenav {
@@ -86,7 +86,7 @@ h1 {
     position: fixed; /* Stay in place */
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
-    left: 0;
+    right: 0;
     background-color: #111; /* Black*/
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 60px; /* Place content 60px from the top */
@@ -111,9 +111,9 @@ h1 {
   /* Position and style the close button (top right corner) */
   .sidenav .closebtn {
     position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
+    top: 6px;
+    right: 195px;
+    font-size: 29px;
     margin-left: 50px;
     color: #ffffff;
   }
@@ -245,7 +245,7 @@ h1 {
 
 @media (min-width:280px) and (max-width:1200px) {
     .navbar-brand .brand-container{
-        text-align: center;
+        text-align: left;
     }
 
     .navbar-brand .logo {
@@ -600,6 +600,7 @@ h1 {
     /* background-color: #000; */
     transform: translateX(5px);
     transition: 0.3s;
+    background-color: yellow;
 }
 
 .facebook {
